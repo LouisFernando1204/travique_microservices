@@ -16,7 +16,7 @@ const TouristSpotSchema = new mongoose.Schema({
             message: "Max images uploaded is 5"
         }
     },
-    reviews: [{ type: mongoose.Schema.Types.ObjectId, required: false }]  
+    reviews: [{ type: mongoose.Schema.Types.ObjectId, required: false }]
 }, { timestamps: true });
 
 module.exports = mongoose.model("TouristSpot", TouristSpotSchema);
