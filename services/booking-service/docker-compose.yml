@@ -6,6 +6,8 @@ services:
     env_file: .env
     networks:
       - travique-network
+    depends_on:
+      - mongo
     deploy:
       replicas: 2
       update_config:
