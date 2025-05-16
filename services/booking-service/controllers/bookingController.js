@@ -4,7 +4,7 @@ const asyncHandler = require('express-async-handler');
 
 // @desc Get all bookings
 // @route GET /bookings
-// @access Public (bisa diubah ke admin only nanti)
+// @access Public 
 const getAllBookings = asyncHandler(async (req, res) => {
     const bookings = await Booking.find().lean();
     if (!bookings.length) {

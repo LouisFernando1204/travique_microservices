@@ -27,27 +27,37 @@ const getTouristSpotById = asyncHandler(async (req, res) => {
     res.status(200).json(spot);
 });
 
-// @desc Create new tourist spot
+// @desc Create one or many tourist spots
 // @route POST /touristspots
-// @access Public (bisa diubah ke admin only nanti)
+// @access Public 
 const createTouristSpot = asyncHandler(async (req, res) => {
-    const { name, description, location, pricePerPerson, availableDates, imageUrls } = req.body;
+    const payload = req.body;
 
-    if (!name || !description || !location || !pricePerPerson || !availableDates || !imageUrls) {
-        return res.status(400).json({ message: 'All fields are required' });
+    const isArray = Array.isArray(payload);
+
+    const dataArray = isArray ? payload : [payload];
+
+    for (const item of dataArray) {
+        const { name, description, location, pricePerPerson, availableDates, imageUrls } = item;
+        if (!name || !description || !location || !pricePerPerson || !availableDates || !imageUrls) {
+            return res.status(400).json({ message: 'All fields are required in every item' });
+        }
     }
 
-    const spot = await TouristSpot.create({ name, description, location, pricePerPerson, availableDates, imageUrls });
-    if (spot) {
-        res.status(201).json({ message: 'New tourist spot created', touristSpot: spot });
-    } else {
-        res.status(400).json({ message: 'Error while creating tourist spot' });
+    try {
+        const result = await TouristSpot.insertMany(dataArray);
+        res.status(201).json({
+            message: isArray ? 'Multiple tourist spots created' : 'Tourist spot created',
+            touristSpots: result
+        });
+    } catch (error) {
+        res.status(500).json({ message: 'Error while creating tourist spots', error: error.message });
     }
 });
 
 // @desc Delete tourist spot
 // @route DELETE /touristspots
-// @access Public (bisa diubah ke admin only nanti)
+// @access Public 
 const deleteTouristSpot = asyncHandler(async (req, res) => {
     const { id } = req.body;
 
