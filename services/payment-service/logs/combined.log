@@ -1,0 +1,145 @@
+2025-05-20T12:09:31.181Z [info]: Midtrans configured successfully 
+2025-05-20T12:09:31.183Z [info]: Midtrans service initialized 
+2025-05-20T12:10:36.893Z [info]: Midtrans configured successfully 
+2025-05-20T12:10:36.895Z [info]: Midtrans service initialized 
+2025-05-20T12:10:41.762Z [info]: Midtrans configured successfully 
+2025-05-20T12:10:41.764Z [info]: Midtrans service initialized 
+2025-05-20T12:10:52.302Z [info]: Midtrans configured successfully 
+2025-05-20T12:10:52.304Z [info]: Midtrans service initialized 
+2025-05-20T13:01:41.817Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:41.820Z [info]: Midtrans service initialized 
+2025-05-20T13:01:42.216Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:41.783Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:41.788Z [info]: Midtrans service initialized 
+2025-05-20T13:01:42.223Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:41.817Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:41.821Z [info]: Midtrans service initialized 
+2025-05-20T13:01:42.233Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:46.311Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:46.312Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:46.312Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:47.850Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:47.800Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:47.851Z [info]: Midtrans service initialized 
+2025-05-20T13:01:48.066Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:47.802Z [info]: Midtrans service initialized 
+2025-05-20T13:01:48.067Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:47.810Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:47.870Z [info]: Midtrans service initialized 
+2025-05-20T13:01:48.075Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:48.150Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:48.174Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:48.176Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:49.546Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:49.548Z [info]: Midtrans service initialized 
+2025-05-20T13:01:49.841Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:49.860Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:49.605Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:49.627Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:49.606Z [info]: Midtrans service initialized 
+2025-05-20T13:01:49.905Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:49.630Z [info]: Midtrans service initialized 
+2025-05-20T13:01:49.858Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:50.021Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:50.032Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.591Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:52.593Z [info]: Midtrans service initialized 
+2025-05-20T13:01:52.798Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:52.589Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:52.592Z [info]: Midtrans service initialized 
+2025-05-20T13:01:52.810Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:52.607Z [info]: Midtrans configured successfully 
+2025-05-20T13:01:52.609Z [info]: Midtrans service initialized 
+2025-05-20T13:01:52.822Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:01:52.890Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.903Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.896Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:20.424Z [info]: Midtrans configured successfully 
+2025-05-20T13:04:20.426Z [info]: Midtrans service initialized 
+2025-05-20T13:04:20.644Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:04:20.726Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:22.291Z [info]: Midtrans configured successfully 
+2025-05-20T13:04:22.293Z [info]: Midtrans service initialized 
+2025-05-20T13:04:22.560Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:04:22.662Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:23.961Z [info]: Midtrans configured successfully 
+2025-05-20T13:04:23.963Z [info]: Midtrans service initialized 
+2025-05-20T13:04:24.220Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:04:24.317Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:25.892Z [info]: Midtrans configured successfully 
+2025-05-20T13:04:25.894Z [info]: Midtrans service initialized 
+2025-05-20T13:04:26.101Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:04:26.119Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:27.847Z [info]: Midtrans configured successfully 
+2025-05-20T13:08:27.849Z [info]: Midtrans service initialized 
+2025-05-20T13:08:28.067Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:08:28.151Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:29.544Z [info]: Midtrans configured successfully 
+2025-05-20T13:08:29.546Z [info]: Midtrans service initialized 
+2025-05-20T13:08:29.742Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:08:29.760Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:31.112Z [info]: Midtrans configured successfully 
+2025-05-20T13:08:31.113Z [info]: Midtrans service initialized 
+2025-05-20T13:08:31.318Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:08:31.334Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:32.823Z [info]: Midtrans configured successfully 
+2025-05-20T13:08:32.824Z [info]: Midtrans service initialized 
+2025-05-20T13:08:33.041Z [info]: Server running in production mode on port 3000 
+2025-05-20T13:08:33.130Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:10:08.464Z [info]: Midtrans configured successfully 
+2025-05-20T13:10:08.465Z [info]: Midtrans service initialized 
+2025-05-20T13:10:08.674Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:10:08.430Z [info]: Midtrans configured successfully 
+2025-05-20T13:10:08.483Z [info]: Midtrans service initialized 
+2025-05-20T13:10:08.684Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:10:08.427Z [info]: Midtrans configured successfully 
+2025-05-20T13:10:08.482Z [info]: Midtrans service initialized 
+2025-05-20T13:10:08.698Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:15:45.299Z [info]: Midtrans configured successfully 
+2025-05-20T13:15:45.304Z [info]: Midtrans service initialized 
+2025-05-20T13:15:45.707Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:15:45.363Z [info]: Midtrans configured successfully 
+2025-05-20T13:15:45.366Z [info]: Midtrans service initialized 
+2025-05-20T13:15:45.769Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:15:45.397Z [info]: Midtrans configured successfully 
+2025-05-20T13:15:45.399Z [info]: Midtrans service initialized 
+2025-05-20T13:15:45.865Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:10.524Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:10.527Z [info]: Midtrans service initialized 
+2025-05-20T13:20:10.746Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:10.469Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:10.472Z [info]: Midtrans service initialized 
+2025-05-20T13:20:10.764Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:10.596Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:10.598Z [info]: Midtrans service initialized 
+2025-05-20T13:20:10.817Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:49.216Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:49.218Z [info]: Midtrans service initialized 
+2025-05-20T13:20:49.433Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:49.272Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:49.274Z [info]: Midtrans service initialized 
+2025-05-20T13:20:49.491Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:20:49.266Z [info]: Midtrans configured successfully 
+2025-05-20T13:20:49.268Z [info]: Midtrans service initialized 
+2025-05-20T13:20:49.486Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:18.830Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:18.837Z [info]: Midtrans service initialized 
+2025-05-20T13:33:19.526Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:18.893Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:18.894Z [info]: Midtrans service initialized 
+2025-05-20T13:33:19.895Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:19.227Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:19.231Z [info]: Midtrans service initialized 
+2025-05-20T13:33:20.920Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:24.335Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
+2025-05-20T13:33:24.339Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
+2025-05-20T13:33:24.910Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
+2025-05-20T13:33:26.219Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:26.224Z [info]: Midtrans service initialized 
+2025-05-20T13:33:26.611Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:26.209Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:26.270Z [info]: Midtrans service initialized 
+2025-05-20T13:33:26.669Z [info]: Server running in production mode on port 3002 
+2025-05-20T13:33:26.391Z [info]: Midtrans configured successfully 
+2025-05-20T13:33:26.392Z [info]: Midtrans service initialized 
+2025-05-20T13:33:26.774Z [info]: Server running in production mode on port 3002 
