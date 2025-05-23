@@ -7,8 +7,6 @@ import (
 
 func GetApiHealth(c *fiber.Ctx) error {
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Status OK!",
-	})
+	return output.GetSuccess(c, "Status OK!", nil)
 
 }

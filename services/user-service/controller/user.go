@@ -64,11 +64,8 @@ func Register(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToGenerateTokenAccess))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Registration Successful!",
-		"data": fiber.Map{
-			"user": specificUser,
-		},
+	return output.GetSuccess(c, "Registration Successful!", fiber.Map{
+		"user": specificUser,
 		"jwt": jwt,
 	})
 
@@ -110,11 +107,8 @@ func Login(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToGenerateTokenAccess))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Login successfully!",
-		"data": fiber.Map{
-			"user": specificUser,
-		},
+	return output.GetSuccess(c, "Login Successfully!", fiber.Map{
+		"user": specificUser,
 		"jwt": jwt,
 	})
 
@@ -143,6 +137,13 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToParseData))
 	}
 
+	pass, err := helper.HashPassword(user.Password)
+	if err != nil {
+		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToHashPassword))
+	}
+
+	user.Password = pass
+
 	collection := database.GetDatabase().Collection("user")
 	filter := bson.M{
 		"_id": userId,
@@ -156,9 +157,6 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToUpdateData))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Profile edited successfully!",
-		"data": user,
-	})
+	return output.GetSuccess(c, "Profile edited successfully!", nil)
 
 }
