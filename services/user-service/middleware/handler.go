@@ -21,6 +21,6 @@ func Auth(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusForbidden, string(constant.PermissionDeniedError))
 	}
 
-	return c.Next()
+	return output.GetSuccess(c, "Authentication successful!", nil)
 
 }
