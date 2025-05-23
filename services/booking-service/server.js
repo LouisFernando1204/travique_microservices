@@ -12,6 +12,7 @@ const corsOptions = require('./config/corsOptions');
 const connectDB = require('./config/dbConn');
 const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3500;
+const verifyUser = require('./middleware/verifyUser');
 
 console.log("ENVIRONMENT:", process.env.NODE_ENV);
 
@@ -33,7 +34,7 @@ app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/root'));
 app.use('/touristspots', require('./routes/api/touristSpotRoute'));
-app.use('/bookings', require('./routes/api/bookingRoute'));
+app.use('/bookings', verifyUser, require('./routes/api/bookingRoute'));
 
 app.all('*', (req, res) => {
     res.status(404);
