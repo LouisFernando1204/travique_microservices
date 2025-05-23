@@ -13,10 +13,10 @@ func SetUp(app *fiber.App) {
 
 	app.Post("/api/auth/login", controller.Login)
 
-	app.Patch("/api/edit_profile/:id", controller.EditProfile)
+	app.Patch("/api/auth/edit_profile/:id", controller.EditProfile)
 
 	app.Get("/api/health", helper.GetApiHealth)
 
-	app.Post("/api/verify_token/:id", middleware.Auth)
+	app.Get("/api/auth/verify_token/:id", middleware.Auth)
 
 }
