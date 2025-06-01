@@ -1,4 +1,4 @@
-package database
+package config
 
 import (
 	"context"
@@ -13,10 +13,6 @@ import (
 var Client *mongo.Client
 
 func GetDatabase() *mongo.Database {
-
-	if Client == nil {
-		log.Fatalf("MongoDB is not initialized!")
-	}
 
 	err := godotenv.Load(".env")
 	if err != nil {
@@ -45,20 +41,11 @@ func ConnectDatabase() {
 	}
 	Client = client
 
-	err = Client.Ping(context.Background(), nil)
-	if err != nil {
-		log.Fatalf("Error while ping to MongoDB! %s", err)
-	}
-
 	log.Println("Successfully connected to MongoDB!")
 
 }
 
 func DisconnectDatabase() {
-
-	if Client == nil {
-		log.Fatalf("MongoDB is not initialized!")
-	}
 
 	err := Client.Disconnect(context.Background())
 	if err != nil {

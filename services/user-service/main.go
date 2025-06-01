@@ -5,7 +5,8 @@ import (
 
 	"github.com/gofiber/fiber/v2"
 	"github.com/gofiber/fiber/v2/middleware/cors"
-	"github.com/yebology/travique-go/database"
+	"github.com/yebology/travique-go/config"
+	"github.com/yebology/travique-go/middleware"
 	"github.com/yebology/travique-go/router"
 )
 
@@ -13,14 +14,16 @@ func main() {
 	
 	app := fiber.New()
 
-	database.ConnectDatabase()
+	config.ConnectDatabase()
 
-	defer database.DisconnectDatabase()
+	defer config.DisconnectDatabase()
 
 	app.Use(cors.New(cors.Config{
 		AllowOrigins: "*",
 		AllowHeaders: "*",
 	}))
+
+	app.Use(middleware.CheckDbConnection)
 
 	router.SetUp(app)
 

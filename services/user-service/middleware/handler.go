@@ -5,9 +5,9 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/yebology/travique-go/config"
 	"github.com/yebology/travique-go/constant"
 	"github.com/yebology/travique-go/controller/helper"
-	"github.com/yebology/travique-go/database"
 	"github.com/yebology/travique-go/jwt"
 	"github.com/yebology/travique-go/output"
 	"go.mongodb.org/mongo-driver/bson"
@@ -36,7 +36,7 @@ func Auth(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToParseData))
 	}
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"_id": userObjId,
 	}
@@ -46,7 +46,7 @@ func Auth(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.InvalidAccountError))
 	}
 
-	return output.GetSuccess(c, "Authentication successful!", fiber.Map{
+	return output.GetSuccess(c, string(constant.AuthenticationSuccessful), fiber.Map{
 		"user": user,
 	})
 

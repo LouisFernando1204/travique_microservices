@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/yebology/travique-go/config"
 	"github.com/yebology/travique-go/constant"
 	"github.com/yebology/travique-go/controller/helper"
 	"github.com/yebology/travique-go/data"
-	"github.com/yebology/travique-go/database"
 	"github.com/yebology/travique-go/jwt"
 	"github.com/yebology/travique-go/model"
 	"github.com/yebology/travique-go/output"
@@ -36,10 +36,9 @@ func Register(c *fiber.Ctx) error {
 	if err != nil {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToHashPassword))
 	}
-
 	user.Password = hashedPass
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"email": user.Email,
 	}
@@ -59,7 +58,7 @@ func Register(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToLoadUserData))
 	}
 
-	jwt, err := jwt.GenerateJwt(user)
+	jwt, err := jwt.GenerateJwt(specificUser)
 	if err != nil {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToGenerateTokenAccess))
 	}
@@ -87,7 +86,7 @@ func Login(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.ValidationError))
 	}
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"email": loginData.Email,
 	}
@@ -144,7 +143,7 @@ func EditProfile(c *fiber.Ctx) error {
 
 	user.Password = pass
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"_id": userId,
 	}
