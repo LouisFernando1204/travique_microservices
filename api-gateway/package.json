@@ -1,5 +1,5 @@
 {
-  "name": "travique-booking-service",
+  "name": "travique-api-gateway",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -7,9 +7,9 @@
     "dev": "nodemon server"
   },
   "keywords": [],
-  "author": "Louis Fernando",
+  "author": "Travique",
   "license": "ISC",
-  "description": "Travique's Booking Service",
+  "description": "Travique's API Gateway",
   "dependencies": {
     "axios": "^1.9.0",
     "cookie-parser": "^1.4.7",

@@ -17,14 +17,14 @@ const verifyUser = async (req, res, next) => {
       }
     });
 
-    if (response.status == "success") {
+    if (response.data && response.data.status === 'success') {
       next();
     } else {
       return res.status(403).json({ message: 'Invalid user token' });
     }
 
   } catch (error) {
-    console.error('Error verifying user:', error.message);
+    console.error('Error verifying user:', error.response?.data || error.message);
     return res.status(403).json({ message: 'Unauthorized or verification failed' });
   }
 };

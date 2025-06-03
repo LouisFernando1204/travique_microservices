@@ -9,23 +9,9 @@ const cookieParser = require('cookie-parser');
 const credentials = require('./middleware/credentials');
 const cors = require('cors');
 const corsOptions = require('./config/corsOptions');
-const { connectDB, getDbStatus } = require('./config/dbConn');
-const mongoose = require('mongoose');
 const PORT = process.env.PORT || 3500;
-const verifyUser = require('./middleware/verifyUser');
 
 console.log("ENVIRONMENT:", process.env.NODE_ENV);
-
-connectDB();
-
-app.use((req, res, next) => {
-    if (!getDbStatus()) {
-        return res.status(503).json({
-            message: "Service unavailable: Database connection failed"
-        });
-    }
-    next();
-});
 
 app.use(logger);
 
@@ -42,8 +28,10 @@ app.use(cookieParser());
 app.use('/', express.static(path.join(__dirname, 'public')));
 
 app.use('/', require('./routes/root'));
-app.use('/touristspots', require('./routes/api/touristSpotRoute'));
-app.use('/bookings', verifyUser, require('./routes/api/bookingRoute'));
+// app.use('/service/user-service', require('./routes/services/userService'));
+app.use('/service/booking-service', require('./routes/services/bookingService'));
+// app.use('/service/payment-service', require('./routes/services/paymentService'));
+// app.use('/service/review-service', require('./routes/services/reviewService'));
 
 app.all('*', (req, res) => {
     res.status(404);
@@ -58,15 +46,4 @@ app.all('*', (req, res) => {
 
 app.use(errorHandler);
 
-mongoose.connection.once('open', () => {
-    console.log('Connected to MongoDB');
-    app.listen(PORT, () => console.log(`Server running on port ${process.env.PORT}`));
-});
-
-mongoose.connection.on('error', err => {
-    console.log(err);
-    logEvents(`${err.errno}: ${err.code}\t${err.syscall}\t${err.hostname}`, 'mongoErrLog.log');
-    return res.status(503).json({
-        message: "Service unavailable: Database error"
-    });
-});
+app.listen(PORT, () => console.log(`Server running on port ${process.env.PORT}`));
