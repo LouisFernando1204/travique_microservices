@@ -12,7 +12,7 @@ router.get("/bookings", async (req, res) => {
     const response = await axios.get(`${BASE_URL}/bookings`, {
       headers: { Authorization: req.headers.authorization },
     });
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("GET /bookings error:", error.message);
     if (error.response) {
@@ -31,7 +31,7 @@ router.get("/bookings/:id", async (req, res) => {
     const response = await axios.get(`${BASE_URL}/bookings/${req.params.id}`, {
       headers: { Authorization: req.headers.authorization },
     });
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("GET /bookings/:id error:", error.message);
     if (error.response) {
@@ -53,7 +53,7 @@ router.get("/bookings/user/:userId", async (req, res) => {
         headers: { Authorization: req.headers.authorization },
       }
     );
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("GET /bookings/user/:userId error:", error.message);
     if (error.response) {
@@ -95,7 +95,7 @@ router.patch("/bookings/:id", async (req, res) => {
         headers: { Authorization: req.headers.authorization },
       }
     );
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("PATCH /bookings/:id error:", error.message);
     if (error.response) {
@@ -114,7 +114,7 @@ router.get("/touristspots", async (req, res) => {
   try {
     const response = await axios.get(`${BASE_URL}/touristspots`);
     console.log(response);
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("GET /touristspots error:", error.message);
     if (error.response) {
@@ -133,7 +133,7 @@ router.get("/touristspots/:id", async (req, res) => {
     const response = await axios.get(
       `${BASE_URL}/touristspots/${req.params.id}`
     );
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("GET /touristspots/:id error:", error.message);
     if (error.response) {
@@ -150,7 +150,7 @@ router.get("/touristspots/:id", async (req, res) => {
 router.post("/touristspots", async (req, res) => {
   try {
     const response = await axios.post(`${BASE_URL}/touristspots`, req.body);
-    res.status(201).json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("POST /touristspots error:", error.message);
     if (error.response) {
@@ -169,7 +169,7 @@ router.delete("/touristspots", async (req, res) => {
     const response = await axios.delete(`${BASE_URL}/touristspots`, {
       data: req.body,
     });
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("DELETE /touristspots error:", error.message);
     if (error.response) {
@@ -189,7 +189,7 @@ router.patch("/touristspots/:id/add-review", async (req, res) => {
       `${BASE_URL}/touristspots/${req.params.id}/add-review`,
       req.body
     );
-    res.json(response.data);
+    res.status(response.status).json(response.data);
   } catch (error) {
     console.error("PATCH /touristspots/:id/add-review error:", error.message);
     if (error.response) {
