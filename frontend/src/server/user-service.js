@@ -4,8 +4,8 @@ import { PinataSDK } from "pinata";
 const USER_SERVICE_URL = `http://localhost:3500/service/user-service`;
 
 export const pinata = new PinataSDK({
-  pinataJwt: `${VITE_PINATA_JWT}`,
-  pinataGateway: `${VITE_PINATA_GATEWAY}`,
+  pinataJwt: `${import.meta.env.VITE_PINATA_JWT}`,
+  pinataGateway: `${import.meta.env.VITE_PINATA_GATEWAY}`,
 });
 
 export async function register(name, email, password, avatar) {

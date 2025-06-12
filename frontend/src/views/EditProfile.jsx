@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
 import { editProfile } from "../server/user-service";
+import { useParams } from "react-router-dom";
 
 const EditProfile = () => {
   const [avatar, setAvatar] = useState(null);

@@ -3,6 +3,7 @@ import React from "react";
 import { Route, Routes } from "react-router-dom";
 import Login from "./views/Login";
 import Register from "./views/Register";
+import EditProfile from "./views/EditProfile";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -12,7 +13,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/edit_profile/:id" element={<Register />} />
+        <Route path="/edit_profile/:id" element={<EditProfile />} />
       </Routes>
     </>
   );

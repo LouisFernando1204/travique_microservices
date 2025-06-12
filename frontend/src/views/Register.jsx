@@ -25,19 +25,27 @@ export default function Register() {
             text: "Password minimal harus terdiri dari 8 karakter",
           });
         } else {
-          console.log(res);
+          // console.log(res.data.data.user);
+          // console.log(res.data.data.jwt);
           if (res.status === 201) {
+            sessionStorage.setItem("user", res.data.data.user);
+            sessionStorage.setItem("token", res.data.data.jwt);
             Swal.fire({
               title: "Berhasil register!",
               icon: "success",
-              text: `Berhasil registrasi akun`,
+              text: `Berhasil registrasi akun ${res.data.data.user.email}`,
+              timer: 2000,
             });
-          }
-          else {
+            setTimeout(() => {
+              navigate(`/edit_profile/${res.data.data.user.id}`);
+            }, 2000);
+          } else {
             Swal.fire({
               title: "Oops..Terjadi kesalahan!",
               icon: "error",
-              text: `Error: ${res.message || `Terjadi kesalahan saat register`}`,
+              text: `Error: ${
+                res.message || `Terjadi kesalahan saat register`
+              }`,
             });
           }
         }
