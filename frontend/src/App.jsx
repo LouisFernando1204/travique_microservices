@@ -6,7 +6,6 @@ import Register from "./views/Register";
 import EditProfile from "./views/EditProfile";
 
 function App() {
-  const [count, setCount] = useState(0);
 
   return (
     <>

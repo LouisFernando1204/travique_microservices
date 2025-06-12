@@ -50,12 +50,20 @@ export async function login(email, password) {
 
 export async function editProfile(id, name, email, password, avatar) {
   try {
-    const res = await axios.patch(`${USER_SERVICE_URL}/edit_profile/${id}`, {
-      name: name,
-      email: email,
-      password: password,
-      avatar: avatar,
-    });
+    const res = await axios.patch(
+      `${USER_SERVICE_URL}/edit_profile/${id}`,
+      {
+        name: name,
+        email: email,
+        password: password,
+        avatar: avatar,
+      },
+      {
+        headers: {
+          Authorization: `${localStorage.getItem("token")}`,
+        },
+      }
+    );
     return {
       status: res.status,
       data: res.data,

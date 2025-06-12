@@ -156,6 +156,8 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToUpdateData))
 	}
 
-	return output.GetSuccess(c, "Profile edited successfully!", nil)
+	return output.GetSuccess(c, "Profile edited successfully!", fiber.Map{
+		"user": user,
+	})
 
 }

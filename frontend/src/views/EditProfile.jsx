@@ -1,42 +1,58 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
-import { editProfile } from "../server/user-service";
+import { editProfile, pinata } from "../server/user-service";
 import { useParams } from "react-router-dom";
 
 const EditProfile = () => {
   const [avatar, setAvatar] = useState(null);
-  const [preview, setPreview] = useState(null);
+  //   const [preview, setPreview] = useState(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
   const { id } = useParams("id");
 
+  useEffect(() => {
+    console.log(localStorage.getItem("token"));
+
+    setName(JSON.parse(localStorage.getItem("user")).name);
+    setEmail(JSON.parse(localStorage.getItem("user")).email);
+    setAvatar(JSON.parse(localStorage.getItem("user")).avatar);
+  }, [id]);
+
   const handleAvatarChange = (e) => {
     const file = e.target.files[0];
     if (file) {
-      setAvatar(file);
-      setPreview(URL.createObjectURL(file));
+      setAvatar(URL.createObjectURL(file));
+      console.log(avatar);
     }
   };
 
   const handleEditProfile = async () => {
+    console.log(avatar);
+    const uploadAvatar = await pinata.upload.public.url(avatar);
+    const avatarUrl = `https://gateway.pinata.cloud/ipfs/${uploadAvatar.cid}`;
+    console.log(avatarUrl);
+
     try {
       if (name && email && password && avatar) {
         if (password.length >= 8) {
-          const res = await editProfile(id, name, email, password, avatar);
+            const res = await editProfile(id, name, email, password, avatarUrl);
+            console.log(res)
           if (res.status === 200) {
+            localStorage.setItem("user", JSON.stringify(res.data.data.user));
             Swal.fire({
               title: "Berhasil edit profile!",
               icon: "success",
-              text: `Berhasil edit profile akun `,
+              text: `Berhasil edit profile`,
             });
-          }
-          else {
+          } else {
             Swal.fire({
               title: "Oops..Terjadi kesalahan!",
               icon: "error",
-              text: `Error: ${res.message || `Terjadi kesalahan saat edit profile`}`,
+              text: `Error: ${
+                res.message || `Terjadi kesalahan saat edit profile`
+              }`,
             });
           }
         } else {
@@ -72,9 +88,9 @@ const EditProfile = () => {
 
         <div className="space-y-5">
           <div className="flex flex-col items-center">
-            {preview ? (
+            {avatar ? (
               <img
-                src={preview}
+                src={avatar}
                 alt="Avatar Preview"
                 className="w-24 h-24 rounded-full object-cover shadow-md"
               />
@@ -98,7 +114,7 @@ const EditProfile = () => {
             <input
               type="text"
               className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="Nama Lengkap"
+              placeholder={`Nama baru`}
               value={name}
               onChange={(e) => setName(e.target.value)}
             />
@@ -111,7 +127,7 @@ const EditProfile = () => {
             <input
               type="email"
               className="w-full border border-gray-300 rounded-lg px-3 py-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
-              placeholder="email@example.com"
+              placeholder={`Email baru`}
               value={email}
               onChange={(e) => setEmail(e.target.value)}
             />

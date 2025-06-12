@@ -24,8 +24,9 @@ export default function Login() {
           // console.log(res.data.data.user);
           // console.log(res.data.data.jwt);
           if (res.status === 201) {
-            sessionStorage.setItem("user", res.data.data.user);
-            sessionStorage.setItem("token", res.data.data.jwt);
+            localStorage.setItem("user", JSON.stringify(res.data.data.user));
+            console.log(localStorage.getItem("user"));
+            localStorage.setItem("token", res.data.data.jwt);
             Swal.fire({
               title: "Berhasil Login!",
               icon: "success",
