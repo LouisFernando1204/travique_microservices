@@ -31,7 +31,7 @@ app.use('/', require('./routes/root'));
 app.use('/service/user-service', require('./routes/services/userService'));
 app.use('/service/booking-service', require('./routes/services/bookingService'));
 // app.use('/service/payment-service', require('./routes/services/paymentService'));
-// app.use('/service/review-service', require('./routes/services/reviewService'));
+app.use('/service/review-service', require('./routes/services/reviewService'));
 
 app.all('*', (req, res) => {
     res.status(404);

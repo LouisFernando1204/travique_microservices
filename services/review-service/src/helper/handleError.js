@@ -15,7 +15,7 @@ const handleError = (res, err, customMessage) => {
 
     res.status(500).json({
         status: 'error',
-        message: isDbError ? 'Tidak dapat terhubung ke database' : customMessage,
+        message: isDbError ? 'Database Connection Error' : customMessage,
         error: err.message
     });
 };
