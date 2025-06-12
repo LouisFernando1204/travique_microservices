@@ -2,19 +2,59 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
+import { login } from "../server/user-service";
+import Swal from "sweetalert2";
 
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
 
-  const handleLogin = (e) => {
-    e.preventDefault();
-    console.log({ email, password });
+  const handleLogin = async () => {
+    try {
+      if (email && password) {
+        if (password.length < 8) {
+          Swal.fire({
+            title: "Oops..Terjadi kesalahan",
+            icon: "error",
+            text: "Password harus lebih dari 8 kata",
+          });
+        } else {
+          const res = await login(email, password);
+          console.log(res);
+          if (res.status === 201) {
+            Swal.fire({
+              title: "Berhasil Login!",
+              icon: "success",
+              text: `Berhasil login sebagai`,
+            });
+          } else {
+            Swal.fire({
+              title: "Oops..Terjadi kesalahan!",
+              icon: "error",
+              text: `Error: ${res.message || `Terjadi kesalahan saat login`}`,
+            });
+          }
+        }
+      } else {
+        Swal.fire({
+          title: "Oops..Terjadi kesalahan",
+          icon: "error",
+          text: "Semua field wajib diisi!",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      Swal.fire({
+        title: "Oops..Terjadi kesalahan",
+        icon: "error",
+        text: `${error.message}`,
+      });
+    }
   };
 
   return (
     <AuthLayout title="Welcome Back">
-      <form onSubmit={handleLogin} className="space-y-4">
+      <div className="space-y-4">
         <input
           type="email"
           placeholder="Email address"
@@ -32,7 +72,7 @@ export default function Login() {
           required
         />
         <button
-          type="submit"
+          onClick={handleLogin}
           className="w-full bg-blue-500 hover:bg-blue-600 text-white py-2 rounded-lg font-semibold transition"
         >
           Login
@@ -43,7 +83,7 @@ export default function Login() {
             Register
           </Link>
         </p>
-      </form>
+      </div>
     </AuthLayout>
   );
 }

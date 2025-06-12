@@ -2,7 +2,9 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
-import pinata from 'pinata';
+// import pinata from "pinata";
+import Swal from "sweetalert2";
+import { register } from "../server/user-service";
 
 export default function Register() {
   const [name, setName] = useState("");
@@ -10,9 +12,39 @@ export default function Register() {
   const [password, setPassword] = useState("");
   const [avatar, setAvatar] = useState(null);
 
-    const handleRegister = () => {
-      
-    console.log({ name, email, password, avatar });
+  const handleRegister = async () => {
+    try {
+      if (name && email && password && avatar) {
+        const res = await register(name, email, password, avatar);
+        console.log(res)
+        if (res.status === 201) {
+          Swal.fire({
+            title: "Berhasil register!",
+            icon: "success",
+            text: `Berhasil registrasi akun`,
+          });
+        } else {
+          Swal.fire({
+            title: "Oops..Terjadi kesalahan!",
+            icon: "error",
+            text: `Error: ${res.message || `Terjadi kesalahan saat login`}`,
+          });
+        }
+      } else {
+        Swal.fire({
+          title: "Oops..Terjadi kesalahan",
+          icon: "error",
+          text: "Semua field wajib diisi!",
+        });
+      }
+    } catch (error) {
+      console.error(error);
+      Swal.fire({
+        title: "Oops..Terjadi kesalahan",
+        icon: "error",
+        text: `${error.message}`,
+      });
+    }
   };
 
   return (
@@ -50,8 +82,8 @@ export default function Register() {
           required
         />
         <button
-                  type="submit"
-                  onClick={handleRegister}
+          type="submit"
+          onClick={handleRegister}
           className="w-full bg-green-500 hover:bg-green-600 text-white py-2 rounded-lg font-semibold transition"
         >
           Register
