@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
-// import pinata from "pinata";
 import Swal from "sweetalert2";
-import { register } from "../server/user-service";
+import { pinata, register } from "../server/user-service";
 
 export default function Register() {
   const [name, setName] = useState("");
@@ -13,10 +12,13 @@ export default function Register() {
   const [avatar, setAvatar] = useState(null);
 
   const handleRegister = async () => {
+    const uploadAvatar = await pinata.upload.public.file(avatar);
+    const avatarUrl = `https://gateway.pinata.cloud/ipfs/${uploadAvatar.cid}`;
+
     try {
       if (name && email && password && avatar) {
-        const res = await register(name, email, password, avatar);
-        console.log(res)
+        const res = await register(name, email, password, avatarUrl);
+        console.log(res);
         if (res.status === 201) {
           Swal.fire({
             title: "Berhasil register!",
