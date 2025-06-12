@@ -16,7 +16,7 @@ export default function Login() {
           Swal.fire({
             title: "Oops..Terjadi kesalahan",
             icon: "error",
-            text: "Password harus lebih dari 8 kata",
+            text: "Password minimal harus terdiri dari 8 karakter",
           });
         } else {
           const res = await login(email, password);
@@ -27,7 +27,8 @@ export default function Login() {
               icon: "success",
               text: `Berhasil login sebagai`,
             });
-          } else {
+          } 
+          else {
             Swal.fire({
               title: "Oops..Terjadi kesalahan!",
               icon: "error",

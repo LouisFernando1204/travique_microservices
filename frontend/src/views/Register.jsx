@@ -18,19 +18,28 @@ export default function Register() {
     try {
       if (name && email && password && avatar) {
         const res = await register(name, email, password, avatarUrl);
-        console.log(res);
-        if (res.status === 201) {
+        if (password.length < 8) {
           Swal.fire({
-            title: "Berhasil register!",
-            icon: "success",
-            text: `Berhasil registrasi akun`,
+            title: "Oops..Terjadi kesalahan",
+            icon: "error",
+            text: "Password minimal harus terdiri dari 8 karakter",
           });
         } else {
-          Swal.fire({
-            title: "Oops..Terjadi kesalahan!",
-            icon: "error",
-            text: `Error: ${res.message || `Terjadi kesalahan saat login`}`,
-          });
+          console.log(res);
+          if (res.status === 201) {
+            Swal.fire({
+              title: "Berhasil register!",
+              icon: "success",
+              text: `Berhasil registrasi akun`,
+            });
+          }
+          else {
+            Swal.fire({
+              title: "Oops..Terjadi kesalahan!",
+              icon: "error",
+              text: `Error: ${res.message || `Terjadi kesalahan saat register`}`,
+            });
+          }
         }
       } else {
         Swal.fire({

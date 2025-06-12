@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Swal from "sweetalert2";
+import { editProfile } from "../server/user-service";
 
 const EditProfile = () => {
   const [avatar, setAvatar] = useState(null);
@@ -18,34 +19,47 @@ const EditProfile = () => {
     }
   };
 
-  const handleSubmit = async (e) => {
-    e.preventDefault();
-
-    if (!name || !email || !password) {
+  const handleEditProfile = async () => {
+    try {
+      if (name && email && password && avatar) {
+        if (password.length >= 8) {
+          const res = await editProfile(id, name, email, password, avatar);
+          if (res.status === 200) {
+            Swal.fire({
+              title: "Berhasil edit profile!",
+              icon: "success",
+              text: `Berhasil edit profile akun `,
+            });
+          }
+          else {
+            Swal.fire({
+              title: "Oops..Terjadi kesalahan!",
+              icon: "error",
+              text: `Error: ${res.message || `Terjadi kesalahan saat edit profile`}`,
+            });
+          }
+        } else {
+          Swal.fire({
+            title: "Oops..Terjadi kesalahan",
+            icon: "error",
+            text: "Password minimal harus terdiri dari 8 karakter",
+          });
+        }
+      } else {
+        Swal.fire({
+          title: "Oops!",
+          text: "Semua field wajib diisi.",
+          icon: "error",
+        });
+      }
+    } catch (error) {
+      console.error(error);
       Swal.fire({
-        title: "Oops!",
-        text: "Semua field wajib diisi.",
+        title: "Oops..Terjadi kesalahan",
         icon: "error",
+        text: `${error.message}`,
       });
-      return;
     }
-
-    if (password.length < 8) {
-      Swal.fire({
-        title: "Password Terlalu Pendek",
-        text: "Password minimal 8 karakter.",
-        icon: "warning",
-      });
-      return;
-    }
-
-    Swal.fire({
-      title: "Berhasil!",
-      text: "Profil berhasil diperbarui.",
-      icon: "success",
-    });
-
-    // Kirim ke backend di sini (pakai FormData jika ada avatar)
   };
 
   return (
@@ -55,7 +69,7 @@ const EditProfile = () => {
           Edit Profil
         </h2>
 
-        <form onSubmit={handleSubmit} className="space-y-5">
+        <div className="space-y-5">
           <div className="flex flex-col items-center">
             {preview ? (
               <img
@@ -116,12 +130,12 @@ const EditProfile = () => {
           </div>
 
           <button
-            type="submit"
+            onClick={handleEditProfile}
             className="w-full bg-blue-600 text-white font-medium py-2 rounded-lg hover:bg-blue-700 transition duration-300"
           >
             Simpan Perubahan
           </button>
-        </form>
+        </div>
       </div>
     </div>
   );
