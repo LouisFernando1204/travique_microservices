@@ -1,0 +1,23 @@
+2025-05-20T13:01:46.311Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:46.312Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:46.312Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:48.150Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:48.174Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:48.176Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:49.860Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:50.021Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:50.032Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.890Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.903Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:01:52.896Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:20.726Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:22.662Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:24.317Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:04:26.119Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:28.151Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:29.760Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:31.334Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:08:33.130Z [error]: Error connecting to MongoDB: Authentication failed. 
+2025-05-20T13:33:24.335Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
+2025-05-20T13:33:24.339Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
+2025-05-20T13:33:24.910Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.2:27017 
