@@ -40,11 +40,11 @@ Welcome to **Travique**, a full-stack tourism booking platform that simplifies h
 * 💬 **Review Service** : Node.js + MongoDB
 
 ## 🚀 Travique Insights
-* 🌐 **Frontend** : [View Code](https://github.com/LouisFernando1204/travique_microservices/frontend)
-* 🔧 **User Service (Go)** : [View Code](https://github.com/LouisFernando1204/travique_microservices/services/user-service)
-* 📦 **Booking Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/services/booking-service)
-* 💳 **Payment Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/services/payment-service)
-* ⭐ **Review Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/services/review-service)
+* 🌐 **Frontend** : [View Code](https://github.com/LouisFernando1204/travique_microservices/tree/main/frontend)
+* 🔧 **User Service (Go)** : [View Code](https://github.com/LouisFernando1204/travique_microservices/tree/main/services/user-service)
+* 📦 **Booking Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/tree/main/services/booking-service)
+* 💳 **Payment Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/tree/main/services/payment-service)
+* ⭐ **Review Service** : [View Code](https://github.com/LouisFernando1204/travique_microservices/tree/main/services/review-service)
 * 🧩 **Microservice Architecture** : [View Diagram](https://drive.google.com/file/d/1saMnLL26nW3Yx2qowBOonkTuKV0Gi4EC/view?usp=sharing)
 
 ## 🤝 Contributors
