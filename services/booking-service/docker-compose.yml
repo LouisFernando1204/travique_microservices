@@ -6,6 +6,8 @@ services:
     env_file: .env
     networks:
       - travique-network
+    depends_on:
+      - mongo
     deploy:
       replicas: 2
       update_config:
@@ -18,10 +20,6 @@ services:
     container_name: mongo
     ports:
       - "27017:27017"
-    environment:
-      MONGO_INITDB_ROOT_USERNAME: root
-      MONGO_INITDB_ROOT_PASSWORD: example
-      MONGO_INITDB_DATABASE: booking-db
     volumes:
       - mongo-data:/data/db
     networks:
@@ -44,4 +42,4 @@ volumes:
 
 networks:
   travique-network:
-    name: travique-network
+    external: true

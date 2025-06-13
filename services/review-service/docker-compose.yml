@@ -1,0 +1,35 @@
+version: '3.8'
+
+services:
+  review-api-1:
+    build: .
+    container_name: review-api-1
+    environment:
+      - PORT=8080
+    env_file: .env
+    volumes:
+      - .:/app
+      - /app/node_modules
+    ports:
+      - "8080:8080"  # Tambahkan ini agar bisa diakses dari luar container
+    depends_on:
+      - mongo
+    networks:
+      - travique-network
+
+  mongo:
+    image: mongo:5
+    container_name: mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - travique-network
+
+volumes:
+  mongo_data:
+
+networks:
+  travique-network:
+    external: true

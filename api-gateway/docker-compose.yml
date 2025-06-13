@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  travique-api-gateway:
+    build: .
+    container_name: travique-api-gateway
+    ports:
+      - "3500:3500"
+    networks:
+      - travique-network
+    env_file:
+      - .env
+    restart: unless-stopped
+
+networks:
+  travique-network:
+    external: true

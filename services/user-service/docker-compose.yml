@@ -1,15 +1,13 @@
 services:
-  backend:
-    build: 
-      context: .
-      dockerfile: Dockerfile
-    image: backend-app
+  user-service:
+    build: .
     restart: always
     ports:
-      - "8080:8080"
+      - "7100:7100"
     env_file: .env
     networks:
-      - travique_network
+      - travique-network
 
 networks:
-  travique_network:
+  travique-network:
+    external: true

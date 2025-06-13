@@ -9,12 +9,14 @@ import (
 
 func SetUp(app *fiber.App) {
 
-	app.Post("/api/register", controller.Register)
+	app.Post("/api/auth/register", controller.Register)
 
-	app.Post("/api/login", controller.Login)
+	app.Post("/api/auth/login", controller.Login)
 
-	app.Patch("/api/edit_profile/:id", middleware.Auth, controller.EditProfile)
+	app.Patch("/api/auth/edit_profile/:id", controller.EditProfile)
 
 	app.Get("/api/health", helper.GetApiHealth)
+
+	app.Get("/api/auth/verify_token/:id", middleware.Auth)
 
 }

@@ -5,10 +5,10 @@ import (
 	"time"
 
 	"github.com/gofiber/fiber/v2"
+	"github.com/yebology/travique-go/config"
 	"github.com/yebology/travique-go/constant"
 	"github.com/yebology/travique-go/controller/helper"
 	"github.com/yebology/travique-go/data"
-	"github.com/yebology/travique-go/database"
 	"github.com/yebology/travique-go/jwt"
 	"github.com/yebology/travique-go/model"
 	"github.com/yebology/travique-go/output"
@@ -36,10 +36,9 @@ func Register(c *fiber.Ctx) error {
 	if err != nil {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToHashPassword))
 	}
-
 	user.Password = hashedPass
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"email": user.Email,
 	}
@@ -59,16 +58,13 @@ func Register(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToLoadUserData))
 	}
 
-	jwt, err := jwt.GenerateJwt(user)
+	jwt, err := jwt.GenerateJwt(specificUser)
 	if err != nil {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToGenerateTokenAccess))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Registration Successful!",
-		"data": fiber.Map{
-			"user": specificUser,
-		},
+	return output.GetSuccess(c, "Registration Successful!", fiber.Map{
+		"user": specificUser,
 		"jwt": jwt,
 	})
 
@@ -90,7 +86,7 @@ func Login(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.ValidationError))
 	}
 
-	collection := database.GetDatabase().Collection("user")
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"email": loginData.Email,
 	}
@@ -110,11 +106,8 @@ func Login(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToGenerateTokenAccess))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Login successfully!",
-		"data": fiber.Map{
-			"user": specificUser,
-		},
+	return output.GetSuccess(c, "Login Successfully!", fiber.Map{
+		"user": specificUser,
 		"jwt": jwt,
 	})
 
@@ -143,7 +136,14 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToParseData))
 	}
 
-	collection := database.GetDatabase().Collection("user")
+	pass, err := helper.HashPassword(user.Password)
+	if err != nil {
+		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToHashPassword))
+	}
+
+	user.Password = pass
+
+	collection := config.GetDatabase().Collection("user")
 	filter := bson.M{
 		"_id": userId,
 	}
@@ -156,9 +156,6 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToUpdateData))
 	}
 
-	return output.GetSuccess(c, fiber.Map{
-		"message": "Profile edited successfully!",
-		"data": user,
-	})
+	return output.GetSuccess(c, "Profile edited successfully!", nil)
 
 }
