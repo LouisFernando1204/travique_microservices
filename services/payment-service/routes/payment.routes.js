@@ -1,4 +1,3 @@
-// routes/payment.routes.js
 const express = require('express');
 const { paymentController, createPaymentValidation, bankTransferValidation } = require('../controllers/payment.controller');
 const { authenticate } = require('../middlewares/auth.middleware');
