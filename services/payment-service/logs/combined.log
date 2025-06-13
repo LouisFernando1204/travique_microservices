@@ -143,3 +143,112 @@
 2025-05-20T13:33:26.391Z [info]: Midtrans configured successfully 
 2025-05-20T13:33:26.392Z [info]: Midtrans service initialized 
 2025-05-20T13:33:26.774Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.953Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.953Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.997Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.998Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.293Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.959Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.232Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.958Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.241Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:17:36.647Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.599Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.601Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.790Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:17:36.643Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.648Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.850Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:17:36.645Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.849Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.026Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.028Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.318Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.059Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.060Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.340Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.157Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.160Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.358Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.823Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.822Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.826Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.206Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.827Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.196Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.986Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.988Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.388Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:00.055Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:00.107Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:00.191Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:01.200Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.156Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.158Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.432Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:01.201Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.416Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:01.215Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.217Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.432Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:06.280Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:06.332Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:06.342Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:07.385Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.387Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.660Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:07.496Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.505Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.497Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.791Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:07.507Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.798Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:12.572Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:12.699Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:12.701Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:13.865Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.867Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.868Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.073Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:13.900Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.901Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.029Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:13.866Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.065Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:18.947Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:18.960Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:18.980Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:04.441Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:04.442Z [info]: Midtrans service initialized 
+2025-06-13T03:06:04.637Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:09.553Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:10.545Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:10.547Z [info]: Midtrans service initialized 
+2025-06-13T03:06:10.752Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:15.660Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:17.006Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:17.011Z [info]: Midtrans service initialized 
+2025-06-13T03:06:17.296Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:22.213Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:23.714Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:23.775Z [info]: Midtrans service initialized 
+2025-06-13T03:06:23.979Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:28.896Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:07:40.894Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.938Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.939Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.146Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:07:40.896Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.102Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:07:40.980Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.981Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.179Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:11.912Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:11.914Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.288Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:12.114Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:12.116Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.339Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:12.348Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:12.349Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.623Z [info]: Server running in development mode on port 3002 
