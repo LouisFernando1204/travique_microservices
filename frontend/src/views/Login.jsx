@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
 import { login } from "../server/user-service";
@@ -8,6 +8,7 @@ import Swal from "sweetalert2";
 export default function Login() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate();
 
   const handleLogin = async () => {
     try {
@@ -16,17 +17,25 @@ export default function Login() {
           Swal.fire({
             title: "Oops..Terjadi kesalahan",
             icon: "error",
-            text: "Password harus lebih dari 8 kata",
+            text: "Password minimal harus terdiri dari 8 karakter",
           });
         } else {
           const res = await login(email, password);
-          console.log(res);
+          // console.log(res.data.data.user);
+          // console.log(res.data.data.jwt);
           if (res.status === 201) {
+            localStorage.setItem("user", JSON.stringify(res.data.data.user));
+            console.log(localStorage.getItem("user"));
+            localStorage.setItem("token", res.data.data.jwt);
             Swal.fire({
               title: "Berhasil Login!",
               icon: "success",
-              text: `Berhasil login sebagai`,
+              text: `${res.data.message} as ${res.data.data.user.email}`,
+              timer: 2000,
             });
+            setTimeout(() => {
+              navigate(`/edit_profile/${res.data.data.user.id}`);
+            }, 2000);
           } else {
             Swal.fire({
               title: "Oops..Terjadi kesalahan!",

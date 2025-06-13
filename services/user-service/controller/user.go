@@ -141,21 +141,32 @@ func EditProfile(c *fiber.Ctx) error {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToHashPassword))
 	}
 
+	user.Id = userId
 	user.Password = pass
 
 	collection := config.GetDatabase().Collection("user")
-	filter := bson.M{
+	emailFilter := bson.M{
+		"email": user.Email,
+	}
+	idFilter := bson.M{
 		"_id": userId,
 	}
 	update := bson.M{
 		"$set": user,
 	}
 
-	_, err = collection.UpdateOne(ctx, filter, update)
+	_, err = helper.GetSpecificUser(ctx, emailFilter, collection)
+	if err == nil {
+		return output.GetError(c, fiber.StatusBadRequest, string(constant.DuplicateDataError))
+	}
+
+	_, err = collection.UpdateOne(ctx, idFilter, update)
 	if err != nil {
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToUpdateData))
 	}
 
-	return output.GetSuccess(c, "Profile edited successfully!", nil)
+	return output.GetSuccess(c, "Profile edited successfully!", fiber.Map{
+		"user": user,
+	})
 
 }

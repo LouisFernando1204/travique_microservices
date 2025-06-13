@@ -1,34 +1,54 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
-// import pinata from "pinata";
 import Swal from "sweetalert2";
-import { register } from "../server/user-service";
+import { pinata, register } from "../server/user-service";
 
 export default function Register() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [avatar, setAvatar] = useState(null);
+  const navigate = useNavigate()
 
   const handleRegister = async () => {
+    const uploadAvatar = await pinata.upload.public.file(avatar);
+    const avatarUrl = `https://gateway.pinata.cloud/ipfs/${uploadAvatar.cid}`;
+
     try {
       if (name && email && password && avatar) {
-        const res = await register(name, email, password, avatar);
-        console.log(res)
-        if (res.status === 201) {
+        const res = await register(name, email, password, avatarUrl);
+        if (password.length < 8) {
           Swal.fire({
-            title: "Berhasil register!",
-            icon: "success",
-            text: `Berhasil registrasi akun`,
+            title: "Oops..Terjadi kesalahan",
+            icon: "error",
+            text: "Password minimal harus terdiri dari 8 karakter",
           });
         } else {
-          Swal.fire({
-            title: "Oops..Terjadi kesalahan!",
-            icon: "error",
-            text: `Error: ${res.message || `Terjadi kesalahan saat login`}`,
-          });
+          // console.log(res.data.data.user);
+          // console.log(res.data.data.jwt);
+          if (res.status === 201) {
+            localStorage.setItem("user", JSON.stringify(res.data.data.user));
+            localStorage.setItem("token", res.data.data.jwt);
+            Swal.fire({
+              title: "Berhasil register!",
+              icon: "success",
+              text: `${res.data.message} as ${res.data.data.user.email}`,
+              timer: 2000,
+            });
+            setTimeout(() => {
+              navigate(`/edit_profile/${res.data.data.user.id}`);
+            }, 2000);
+          } else {
+            Swal.fire({
+              title: "Oops..Terjadi kesalahan!",
+              icon: "error",
+              text: `Error: ${
+                res.message || `Terjadi kesalahan saat register`
+              }`,
+            });
+          }
         }
       } else {
         Swal.fire({
