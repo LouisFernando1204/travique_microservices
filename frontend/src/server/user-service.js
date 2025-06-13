@@ -1,6 +1,12 @@
 import axios from "axios";
+import { PinataSDK } from "pinata";
 
 const USER_SERVICE_URL = `http://localhost:3500/service/user-service`;
+
+export const pinata = new PinataSDK({
+  pinataJwt: `${import.meta.env.VITE_PINATA_JWT}`,
+  pinataGateway: `${import.meta.env.VITE_PINATA_GATEWAY}`,
+});
 
 export async function register(name, email, password, avatar) {
   try {
@@ -44,12 +50,20 @@ export async function login(email, password) {
 
 export async function editProfile(id, name, email, password, avatar) {
   try {
-    const res = await axios.patch(`${USER_SERVICE_URL}/edit_profile/${id}`, {
-      name: name,
-      email: email,
-      password: password,
-      avatar: avatar,
-    });
+    const res = await axios.patch(
+      `${USER_SERVICE_URL}/edit_profile/${id}`,
+      {
+        name: name,
+        email: email,
+        password: password,
+        avatar: avatar,
+      },
+      {
+        headers: {
+          Authorization: `${localStorage.getItem("token")}`,
+        },
+      }
+    );
     return {
       status: res.status,
       data: res.data,
