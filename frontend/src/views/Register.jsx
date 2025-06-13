@@ -34,7 +34,7 @@ export default function Register() {
             Swal.fire({
               title: "Berhasil register!",
               icon: "success",
-              text: `Berhasil registrasi akun ${res.data.data.user.email}`,
+              text: `${res.data.message} as ${res.data.data.user.email}`,
               timer: 2000,
             });
             setTimeout(() => {

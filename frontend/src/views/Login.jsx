@@ -30,7 +30,7 @@ export default function Login() {
             Swal.fire({
               title: "Berhasil Login!",
               icon: "success",
-              text: `Berhasil login sebagai ${res.data.data.user.email}`,
+              text: `${res.data.message} as ${res.data.data.user.email}`,
               timer: 2000,
             });
             setTimeout(() => {

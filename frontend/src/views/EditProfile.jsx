@@ -44,7 +44,7 @@ const EditProfile = () => {
             Swal.fire({
               title: "Berhasil edit profile!",
               icon: "success",
-              text: `Berhasil edit profile`,
+              text: `${res.data.message}`,
             });
           } else {
             Swal.fire({
