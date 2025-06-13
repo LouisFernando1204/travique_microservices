@@ -1,4 +1,4 @@
-const axios = require('axios');
+const axios = require("axios");
 
 const verifyUser = async (req, res, next) => {
   try {
@@ -6,26 +6,31 @@ const verifyUser = async (req, res, next) => {
     const token = req.headers.authorization;
 
     if (!userId || !token) {
-      return res.status(401).json({ message: 'User ID and token required' });
+      return res.status(401).json({ message: "User ID and token required" });
     }
 
-    const verifyUrl = `http://localhost:8080/api/auth/verify_token/${userId}`;
+    const verifyUrl = `http://user-service-user-service-1:7100/api/auth/verify_token/${userId}`;
 
     const response = await axios.get(verifyUrl, {
       headers: {
-        Authorization: token
-      }
+        Authorization: token,
+      },
     });
 
-    if (response.data && response.data.status === 'success') {
+    console.log("RESPONE VERIFY URL:", response);
+    if (response.data || response.data.status === "success") {
       next();
     } else {
-      return res.status(403).json({ message: 'Invalid user token' });
+      return res.status(403).json({ message: "Invalid user token" });
     }
-
   } catch (error) {
-    console.error('Error verifying user:', error.response?.data || error.message);
-    return res.status(403).json({ message: 'Unauthorized or verification failed' });
+    console.error(
+      "Error verifying user:",
+      error.response?.data || error.message
+    );
+    return res
+      .status(403)
+      .json({ message: "Unauthorized or verification failed" });
   }
 };
 

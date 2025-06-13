@@ -7,7 +7,7 @@ services:
     networks:
       - travique-network
     depends_on:
-      - mongo
+      - mongodb
     deploy:
       replicas: 2
       update_config:
@@ -15,11 +15,11 @@ services:
       restart_policy:
         condition: on-failure
 
-  mongo:
+  mongodb:
     image: mongo
-    container_name: mongo
+    container_name: mongodb
     ports:
-      - "27017:27017"
+      - "27018:27017"
     volumes:
       - mongo-data:/data/db
     networks:
