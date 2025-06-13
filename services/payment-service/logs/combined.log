@@ -143,3 +143,675 @@
 2025-05-20T13:33:26.391Z [info]: Midtrans configured successfully 
 2025-05-20T13:33:26.392Z [info]: Midtrans service initialized 
 2025-05-20T13:33:26.774Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.953Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.953Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.997Z [info]: Midtrans configured successfully 
+2025-06-13T02:00:49.998Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.293Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.959Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.232Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:00:49.958Z [info]: Midtrans service initialized 
+2025-06-13T02:00:50.241Z [info]: Server running in production mode on port 3002 
+2025-06-13T02:17:36.647Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.599Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.601Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.790Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:17:36.643Z [info]: Midtrans configured successfully 
+2025-06-13T02:17:36.648Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.850Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:17:36.645Z [info]: Midtrans service initialized 
+2025-06-13T02:17:36.849Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.026Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.028Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.318Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.059Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.060Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.340Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:25:39.157Z [info]: Midtrans configured successfully 
+2025-06-13T02:25:39.160Z [info]: Midtrans service initialized 
+2025-06-13T02:25:39.358Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.823Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.822Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.826Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.206Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.827Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.196Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:56:54.986Z [info]: Midtrans configured successfully 
+2025-06-13T02:56:54.988Z [info]: Midtrans service initialized 
+2025-06-13T02:56:55.388Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:00.055Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:00.107Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:00.191Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:01.200Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.156Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.158Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.432Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:01.201Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.416Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:01.215Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:01.217Z [info]: Midtrans service initialized 
+2025-06-13T02:57:01.432Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:06.280Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:06.332Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:06.342Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:07.385Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.387Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.660Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:07.496Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.505Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:07.497Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.791Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:07.507Z [info]: Midtrans service initialized 
+2025-06-13T02:57:07.798Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:12.572Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:12.699Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:12.701Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:13.865Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.867Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.868Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.073Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:13.900Z [info]: Midtrans configured successfully 
+2025-06-13T02:57:13.901Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.029Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:13.866Z [info]: Midtrans service initialized 
+2025-06-13T02:57:14.065Z [info]: Server running in development mode on port 3002 
+2025-06-13T02:57:18.947Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:18.960Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T02:57:18.980Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:04.441Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:04.442Z [info]: Midtrans service initialized 
+2025-06-13T03:06:04.637Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:09.553Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:10.545Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:10.547Z [info]: Midtrans service initialized 
+2025-06-13T03:06:10.752Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:15.660Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:17.006Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:17.011Z [info]: Midtrans service initialized 
+2025-06-13T03:06:17.296Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:22.213Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:06:23.714Z [info]: Midtrans configured successfully 
+2025-06-13T03:06:23.775Z [info]: Midtrans service initialized 
+2025-06-13T03:06:23.979Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:06:28.896Z [error]: Error connecting to MongoDB: connect ECONNREFUSED 172.19.0.5:27018 
+2025-06-13T03:07:40.894Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.938Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.939Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.146Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:07:40.896Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.102Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:07:40.980Z [info]: Midtrans configured successfully 
+2025-06-13T03:07:40.981Z [info]: Midtrans service initialized 
+2025-06-13T03:07:41.179Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:11.912Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:11.914Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.288Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:12.114Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:12.116Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.339Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:38:12.348Z [info]: Midtrans configured successfully 
+2025-06-13T03:38:12.349Z [info]: Midtrans service initialized 
+2025-06-13T03:38:12.623Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:55:38.343Z [info]: Midtrans configured successfully 
+2025-06-13T03:55:38.345Z [info]: Midtrans service initialized 
+2025-06-13T03:55:38.557Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:55:38.337Z [info]: Midtrans configured successfully 
+2025-06-13T03:55:38.339Z [info]: Midtrans service initialized 
+2025-06-13T03:55:38.699Z [info]: Server running in development mode on port 3002 
+2025-06-13T03:55:38.427Z [info]: Midtrans configured successfully 
+2025-06-13T03:55:38.428Z [info]: Midtrans service initialized 
+2025-06-13T03:55:38.726Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:43:56.778Z [info]: Midtrans configured successfully 
+2025-06-13T04:43:56.746Z [info]: Midtrans configured successfully 
+2025-06-13T04:43:56.740Z [info]: Midtrans configured successfully 
+2025-06-13T04:43:56.782Z [info]: Midtrans service initialized 
+2025-06-13T04:43:56.996Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:43:56.745Z [info]: Midtrans service initialized 
+2025-06-13T04:43:57.042Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:43:56.749Z [info]: Midtrans service initialized 
+2025-06-13T04:43:57.047Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:54:35.387Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'auth-service:3000:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'auth-service:3000:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:54:41.553Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'auth-service:3000:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'auth-service:3000:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:57:36.446Z [info]: Midtrans configured successfully 
+2025-06-13T04:57:36.458Z [info]: Midtrans configured successfully 
+2025-06-13T04:57:36.393Z [info]: Midtrans configured successfully 
+2025-06-13T04:57:36.460Z [info]: Midtrans service initialized 
+2025-06-13T04:57:36.755Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:57:36.447Z [info]: Midtrans service initialized 
+2025-06-13T04:57:36.747Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:57:36.395Z [info]: Midtrans service initialized 
+2025-06-13T04:57:36.754Z [info]: Server running in development mode on port 3002 
+2025-06-13T04:57:54.221Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:57:56.883Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:57:57.785Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:57:58.840Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T04:57:59.577Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:24:26)"
+}
+2025-06-13T05:01:55.961Z [info]: Midtrans configured successfully 
+2025-06-13T05:01:55.965Z [info]: Midtrans service initialized 
+2025-06-13T05:01:56.436Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:01:56.037Z [info]: Midtrans configured successfully 
+2025-06-13T05:01:56.047Z [info]: Midtrans service initialized 
+2025-06-13T05:01:56.534Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:01:56.031Z [info]: Midtrans configured successfully 
+2025-06-13T05:01:56.042Z [info]: Midtrans service initialized 
+2025-06-13T05:01:56.629Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:01:57.430Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:23:26)"
+}
+2025-06-13T05:02:03.770Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:23:26)"
+}
+2025-06-13T05:08:11.549Z [info]: Midtrans configured successfully 
+2025-06-13T05:08:11.512Z [info]: Midtrans configured successfully 
+2025-06-13T05:08:11.514Z [info]: Midtrans service initialized 
+2025-06-13T05:08:11.795Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:08:11.550Z [info]: Midtrans service initialized 
+2025-06-13T05:08:11.746Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:08:11.635Z [info]: Midtrans configured successfully 
+2025-06-13T05:08:11.636Z [info]: Midtrans service initialized 
+2025-06-13T05:08:11.833Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:08:17.890Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:48:20)"
+}
+2025-06-13T05:08:20.332Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:48:20)"
+}
+2025-06-13T05:08:21.340Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:48:20)"
+}
+2025-06-13T05:08:22.474Z [error]: Error verifying token with auth service Converting circular structure to JSON
+    --> starting at object with constructor 'Agent'
+    |     property 'sockets' -> object with constructor 'Object'
+    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'
+    |     ...
+    |     property '_httpMessage' -> object with constructor 'ClientRequest'
+    --- property 'agent' closes the circle {
+  "stack": "TypeError: Converting circular structure to JSON\n    --> starting at object with constructor 'Agent'\n    |     property 'sockets' -> object with constructor 'Object'\n    |     property 'user-service-user-service:7100:' -> object with constructor 'Array'\n    |     ...\n    |     property '_httpMessage' -> object with constructor 'ClientRequest'\n    --- property 'agent' closes the circle\n    at JSON.stringify (<anonymous>)\n    at Printf.template (/usr/src/app/utils/logger.js:8:37)\n    at Printf.transform (/usr/src/app/node_modules/logform/printf.js:11:26)\n    at Format.transform (/usr/src/app/node_modules/logform/combine.js:20:24)\n    at DerivedLogger._transform (/usr/src/app/node_modules/winston/lib/winston/logger.js:314:29)\n    at Transform._read (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:166:10)\n    at Transform._write (/usr/src/app/node_modules/readable-stream/lib/_stream_transform.js:155:83)\n    at doWrite (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:390:139)\n    at writeOrBuffer (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:381:5)\n    at Writable.write (/usr/src/app/node_modules/readable-stream/lib/_stream_writable.js:302:11)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async authenticate (/usr/src/app/middlewares/auth.middleware.js:48:20)"
+}
+2025-06-13T05:11:13.553Z [info]: Midtrans configured successfully 
+2025-06-13T05:11:13.601Z [info]: Midtrans configured successfully 
+2025-06-13T05:11:13.602Z [info]: Midtrans service initialized 
+2025-06-13T05:11:13.877Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:11:13.555Z [info]: Midtrans service initialized 
+2025-06-13T05:11:13.824Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:11:13.681Z [info]: Midtrans configured successfully 
+2025-06-13T05:11:13.683Z [info]: Midtrans service initialized 
+2025-06-13T05:11:13.970Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:11:22.613Z [error]: Error verifying token with auth service: 
+2025-06-13T05:50:31.369Z [error]: Error verifying token with auth service: 
+2025-06-13T05:58:00.253Z [info]: Midtrans configured successfully 
+2025-06-13T05:58:00.255Z [info]: Midtrans service initialized 
+2025-06-13T05:58:00.557Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:58:00.114Z [info]: Midtrans configured successfully 
+2025-06-13T05:58:00.188Z [info]: Midtrans configured successfully 
+2025-06-13T05:58:00.165Z [info]: Midtrans service initialized 
+2025-06-13T05:58:00.483Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:58:00.190Z [info]: Midtrans service initialized 
+2025-06-13T05:58:00.559Z [info]: Server running in development mode on port 3002 
+2025-06-13T05:58:11.934Z [error]: Error verifying token with auth service: 
+2025-06-13T05:58:17.290Z [error]: Error verifying token with auth service: 
+2025-06-13T06:02:26.079Z [info]: Midtrans configured successfully 
+2025-06-13T06:02:26.084Z [info]: Midtrans service initialized 
+2025-06-13T06:02:26.378Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:02:26.121Z [info]: Midtrans configured successfully 
+2025-06-13T06:02:26.122Z [info]: Midtrans service initialized 
+2025-06-13T06:02:26.414Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:02:26.235Z [info]: Midtrans configured successfully 
+2025-06-13T06:02:26.236Z [info]: Midtrans service initialized 
+2025-06-13T06:02:26.438Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:02:29.831Z [error]: Authentication error: decoded is not defined {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)"
+}
+2025-06-13T06:02:29.832Z [error]: 500 - decoded is not defined - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)",
+  "errors": null
+}
+2025-06-13T06:02:31.284Z [error]: Authentication error: decoded is not defined {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)"
+}
+2025-06-13T06:02:31.285Z [error]: 500 - decoded is not defined - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)",
+  "errors": null
+}
+2025-06-13T06:02:32.905Z [error]: Authentication error: decoded is not defined {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)"
+}
+2025-06-13T06:02:32.910Z [error]: 500 - decoded is not defined - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)",
+  "errors": null
+}
+2025-06-13T06:02:43.052Z [error]: Authentication error: decoded is not defined {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)"
+}
+2025-06-13T06:02:43.054Z [error]: 500 - decoded is not defined - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ReferenceError: decoded is not defined\n    at authenticate (/usr/src/app/middlewares/auth.middleware.js:23:20)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at Route.dispatch (/usr/src/app/node_modules/express/lib/router/route.js:119:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at /usr/src/app/node_modules/express/lib/router/index.js:284:15\n    at Function.process_params (/usr/src/app/node_modules/express/lib/router/index.js:346:12)\n    at next (/usr/src/app/node_modules/express/lib/router/index.js:280:10)\n    at Function.handle (/usr/src/app/node_modules/express/lib/router/index.js:175:3)\n    at router (/usr/src/app/node_modules/express/lib/router/index.js:47:12)",
+  "errors": null
+}
+2025-06-13T06:04:39.213Z [info]: Midtrans configured successfully 
+2025-06-13T06:04:39.250Z [info]: Midtrans configured successfully 
+2025-06-13T06:04:39.196Z [info]: Midtrans configured successfully 
+2025-06-13T06:04:39.200Z [info]: Midtrans service initialized 
+2025-06-13T06:04:39.472Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:04:39.215Z [info]: Midtrans service initialized 
+2025-06-13T06:04:39.498Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:04:39.253Z [info]: Midtrans service initialized 
+2025-06-13T06:04:39.544Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:04:41.637Z [error]: Error verifying token with auth service: 
+2025-06-13T06:04:42.710Z [error]: Error verifying token with auth service: 
+2025-06-13T06:04:49.733Z [error]: Error verifying token with auth service: 
+2025-06-13T06:04:50.309Z [error]: Error verifying token with auth service: 
+2025-06-13T06:05:49.447Z [info]: Midtrans configured successfully 
+2025-06-13T06:05:49.453Z [info]: Midtrans service initialized 
+2025-06-13T06:05:49.733Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:05:49.486Z [info]: Midtrans configured successfully 
+2025-06-13T06:05:49.487Z [info]: Midtrans service initialized 
+2025-06-13T06:05:49.787Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:05:49.496Z [info]: Midtrans configured successfully 
+2025-06-13T06:05:49.498Z [info]: Midtrans service initialized 
+2025-06-13T06:05:49.967Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:05:55.064Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:06:05.604Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:06:32.817Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:06:44.783Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:06:52.491Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:07:44.340Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:07:45.569Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:10:59.169Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:11:04.686Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:12:05.180Z [error]: 500 - Cannot read properties of undefined (reading 'id') - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Cannot read properties of undefined (reading 'id')\n    at createPayment (/usr/src/app/controllers/payment.controller.js:27:31)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:14:50.265Z [info]: Midtrans configured successfully 
+2025-06-13T06:14:50.267Z [info]: Midtrans service initialized 
+2025-06-13T06:14:50.477Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:14:50.347Z [info]: Midtrans configured successfully 
+2025-06-13T06:14:50.349Z [info]: Midtrans service initialized 
+2025-06-13T06:14:50.552Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:14:50.349Z [info]: Midtrans configured successfully 
+2025-06-13T06:14:50.351Z [info]: Midtrans service initialized 
+2025-06-13T06:14:50.631Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:14:57.624Z [error]: API Error: 404 GET /api/bookings/684babae56822b0716d3de44 {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:14:57.627Z [error]: Error getting booking details: Request failed with status code 404 
+2025-06-13T06:14:57.627Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:14:57.627Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:14:58.914Z [error]: API Error: 404 GET /api/bookings/684babae56822b0716d3de44 {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:14:58.915Z [error]: Error getting booking details: Request failed with status code 404 
+2025-06-13T06:14:58.915Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:14:58.916Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:17:32.384Z [info]: Midtrans configured successfully 
+2025-06-13T06:17:31.962Z [info]: Midtrans configured successfully 
+2025-06-13T06:17:31.966Z [info]: Midtrans service initialized 
+2025-06-13T06:17:32.533Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:17:32.386Z [info]: Midtrans service initialized 
+2025-06-13T06:17:32.609Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:17:32.378Z [info]: Midtrans configured successfully 
+2025-06-13T06:17:32.381Z [info]: Midtrans service initialized 
+2025-06-13T06:17:32.690Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:17:36.346Z [error]: API Error: 401 GET /bookings/"684babae56822b0716d3de44" {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:17:36.348Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:17:36.348Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:17:36.348Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:17:43.619Z [error]: API Error: 401 GET /bookings/684babae56822b0716d3de44 {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:17:43.620Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:17:43.621Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:17:43.622Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:17:44.404Z [error]: API Error: 401 GET /bookings/684babae56822b0716d3de44 {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:17:44.405Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:17:44.405Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:17:44.406Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:17:45.073Z [error]: API Error: 401 GET /bookings/684babae56822b0716d3de44 {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:17:45.075Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:17:45.075Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:17:45.076Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:21:27.871Z [error]: API Error: 401 GET /bookings/"684babae56822b0716d3de44" {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:21:27.873Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:21:27.873Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:21:27.873Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:21:32.470Z [error]: API Error: 401 GET /bookings/684babae56822b0716d3de44 {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:21:32.471Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:21:32.471Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:21:32.472Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:21:33.231Z [error]: API Error: 401 GET /bookings/684babae56822b0716d3de44 {
+  "data": {
+    "message": "User ID and token required"
+  }
+}
+2025-06-13T06:21:33.235Z [error]: Error getting booking details: Request failed with status code 401 
+2025-06-13T06:21:33.236Z [error]: Error creating payment: Request failed with status code 401 
+2025-06-13T06:21:33.237Z [error]: 500 - Request failed with status code 401 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 401\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.getBookingDetails (/usr/src/app/services/payment.service.js:385:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:19:23)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:23:12.709Z [info]: Midtrans configured successfully 
+2025-06-13T06:23:12.711Z [info]: Midtrans configured successfully 
+2025-06-13T06:23:12.712Z [info]: Midtrans service initialized 
+2025-06-13T06:23:12.918Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:23:12.773Z [info]: Midtrans service initialized 
+2025-06-13T06:23:12.982Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:23:12.900Z [info]: Midtrans configured successfully 
+2025-06-13T06:23:12.901Z [info]: Midtrans service initialized 
+2025-06-13T06:23:13.182Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:23:26.381Z [error]: Error creating payment: Assignment to constant variable. 
+2025-06-13T06:23:26.384Z [error]: 500 - Assignment to constant variable. - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Assignment to constant variable.\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:35:14)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:23:31.565Z [error]: Error creating payment: Assignment to constant variable. 
+2025-06-13T06:23:31.567Z [error]: 500 - Assignment to constant variable. - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "TypeError: Assignment to constant variable.\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:35:14)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at validate (/usr/src/app/middlewares/validation.middleware.js:9:3)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)\n    at middleware (/usr/src/app/node_modules/express-validator/lib/middlewares/check.js:16:13)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)",
+  "errors": null
+}
+2025-06-13T06:24:30.484Z [info]: Midtrans configured successfully 
+2025-06-13T06:24:30.452Z [info]: Midtrans configured successfully 
+2025-06-13T06:24:30.486Z [info]: Midtrans service initialized 
+2025-06-13T06:24:30.699Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:24:30.454Z [info]: Midtrans service initialized 
+2025-06-13T06:24:30.736Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:24:30.441Z [info]: Midtrans configured successfully 
+2025-06-13T06:24:30.445Z [info]: Midtrans service initialized 
+2025-06-13T06:24:30.816Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:24:36.708Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:24:36.715Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:24:42.687Z [info]: Snap token generated for order TRX-1749795881143-4f2e555c 
+2025-06-13T06:24:42.803Z [error]: API Error: 404 PATCH /api/bookings/684babae56822b0716d3de44/payment {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:24:42.804Z [error]: Error updating booking payment: Request failed with status code 404 
+2025-06-13T06:24:42.804Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:24:42.805Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.updateBookingPayment (/usr/src/app/services/payment.service.js:401:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:72:7)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:24:45.509Z [info]: Snap token generated for order TRX-1749795885108-251cf5d2 
+2025-06-13T06:24:45.565Z [error]: API Error: 404 PATCH /api/bookings/684babae56822b0716d3de44/payment {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:24:45.567Z [error]: Error updating booking payment: Request failed with status code 404 
+2025-06-13T06:24:45.567Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:24:45.567Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.updateBookingPayment (/usr/src/app/services/payment.service.js:401:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:72:7)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:24:49.269Z [info]: Snap token generated for order TRX-1749795888404-05a6540a 
+2025-06-13T06:24:49.311Z [error]: API Error: 404 PATCH /api/bookings/684babae56822b0716d3de44/payment {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:24:49.313Z [error]: Error updating booking payment: Request failed with status code 404 
+2025-06-13T06:24:49.313Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:24:49.314Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.updateBookingPayment (/usr/src/app/services/payment.service.js:401:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:72:7)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:28:36.196Z [info]: Snap token generated for order TRX-1749796115765-ae4ac767 
+2025-06-13T06:28:36.244Z [error]: API Error: 404 PATCH /api/bookings/684babae56822b0716d3de44/payment {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:28:36.245Z [error]: Error updating booking payment: Request failed with status code 404 
+2025-06-13T06:28:36.264Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:28:36.265Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.updateBookingPayment (/usr/src/app/services/payment.service.js:401:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:72:7)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:28:37.761Z [info]: Snap token generated for order TRX-1749796117464-0c8a7bd7 
+2025-06-13T06:28:37.783Z [error]: API Error: 404 PATCH /api/bookings/684babae56822b0716d3de44/payment {
+  "data": "<!DOCTYPE html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta http-equiv=\"X-UA-Compatible\" content=\"IE=edge\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <title>404 Not Found</title>\n    <link rel=\"stylesheet\" href=\"css/style.css\" />\n  </head>\n\n  <body>\n    <h1>Sorry!</h1>\n    <p>The resource you have requested does not exist.</p>\n  </body>\n</html>\n"
+}
+2025-06-13T06:28:37.785Z [error]: Error updating booking payment: Request failed with status code 404 
+2025-06-13T06:28:37.785Z [error]: Error creating payment: Request failed with status code 404 
+2025-06-13T06:28:37.786Z [error]: 500 - Request failed with status code 404 - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "AxiosError: Request failed with status code 404\n    at settle (/usr/src/app/node_modules/axios/dist/node/axios.cjs:2049:12)\n    at IncomingMessage.handleStreamEnd (/usr/src/app/node_modules/axios/dist/node/axios.cjs:3166:11)\n    at IncomingMessage.emit (node:events:530:35)\n    at endReadableNT (node:internal/streams/readable:1698:12)\n    at process.processTicksAndRejections (node:internal/process/task_queues:90:21)\n    at Axios.request (/usr/src/app/node_modules/axios/dist/node/axios.cjs:4276:41)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async PaymentService.updateBookingPayment (/usr/src/app/services/payment.service.js:401:24)\n    at async PaymentService.createPayment (/usr/src/app/services/payment.service.js:72:7)\n    at async createPayment (/usr/src/app/controllers/payment.controller.js:28:22)",
+  "errors": null
+}
+2025-06-13T06:29:00.722Z [info]: Midtrans configured successfully 
+2025-06-13T06:29:00.750Z [info]: Midtrans configured successfully 
+2025-06-13T06:29:00.751Z [info]: Midtrans service initialized 
+2025-06-13T06:29:00.962Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:29:00.777Z [info]: Midtrans configured successfully 
+2025-06-13T06:29:00.724Z [info]: Midtrans service initialized 
+2025-06-13T06:29:00.998Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:29:00.779Z [info]: Midtrans service initialized 
+2025-06-13T06:29:01.073Z [info]: Server running in development mode on port 3002 
+2025-06-13T06:29:03.226Z [info]: Snap token generated for order TRX-1749796142896-27b346f1 
+2025-06-13T06:29:06.307Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:06.311Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:07.403Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:07.405Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:08.356Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:08.359Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:09.034Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:09.036Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:19.955Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:19.957Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:21.094Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError", userId: Path `userId` is required. 
+2025-06-13T06:29:21.096Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\", userId: Path `userId` is required.\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"",
+    "Path `userId` is required."
+  ]
+}
+2025-06-13T06:29:30.891Z [info]: Snap token generated for order TRX-1749796170521-010c3911 
+2025-06-13T06:29:35.247Z [info]: Snap token generated for order TRX-1749796174800-ffadf6d0 
+2025-06-13T06:29:36.884Z [info]: Snap token generated for order TRX-1749796176517-07c91c83 
+2025-06-13T06:34:24.139Z [info]: Snap token generated for order TRX-1749796463678-76120021 
+2025-06-13T06:34:29.675Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError" 
+2025-06-13T06:34:29.680Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\""
+  ]
+}
+2025-06-13T06:34:37.383Z [info]: Snap token generated for order TRX-1749796477043-b8a48c4d 
+2025-06-13T06:35:48.375Z [error]: Error creating payment: Payment validation failed: bookingId: Cast to ObjectId failed for value ""684babae56822b0716d3de44"" (type string) at path "bookingId" because of "BSONError" 
+2025-06-13T06:35:48.377Z [error]: 400 - Validation Error - /api/payments - POST - ::ffff:172.19.0.12 {
+  "stack": "ValidationError: Payment validation failed: bookingId: Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\"\n    at Document.invalidate (/usr/src/app/node_modules/mongoose/lib/document.js:3343:32)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1480:12)\n    at model.$set (/usr/src/app/node_modules/mongoose/lib/document.js:1132:16)\n    at model.Document (/usr/src/app/node_modules/mongoose/lib/document.js:178:12)\n    at model.Model (/usr/src/app/node_modules/mongoose/lib/model.js:127:12)\n    at new model (/usr/src/app/node_modules/mongoose/lib/model.js:4807:15)\n    at PaymentService.createPayment (/usr/src/app/services/payment.service.js:36:23)\n    at createPayment (/usr/src/app/controllers/payment.controller.js:28:43)\n    at Layer.handle [as handle_request] (/usr/src/app/node_modules/express/lib/router/layer.js:95:5)\n    at next (/usr/src/app/node_modules/express/lib/router/route.js:149:13)",
+  "errors": [
+    "Cast to ObjectId failed for value \"\"684babae56822b0716d3de44\"\" (type string) at path \"bookingId\" because of \"BSONError\""
+  ]
+}
+2025-06-13T06:37:07.270Z [info]: Snap token generated for order TRX-1749796626985-1d8901de 
+2025-06-13T06:37:49.380Z [info]: Snap token generated for order TRX-1749796668964-0fb0dc08 
+2025-06-13T06:37:57.659Z [info]: Snap token generated for order TRX-1749796677402-27cd3708 
+2025-06-13T06:38:35.394Z [info]: Snap token generated for order TRX-1749796715001-635f6f60 

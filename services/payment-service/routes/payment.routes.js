@@ -164,7 +164,6 @@ const router = express.Router();
  */
 router.post(
   '/', 
-  authenticate, 
   createPaymentValidation, 
   validate, 
   paymentController.createPayment

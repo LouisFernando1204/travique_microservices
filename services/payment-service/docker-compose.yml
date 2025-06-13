@@ -14,7 +14,7 @@ services:
     ports:
       - "27018:27017"
     networks:
-      - payment-network
+      - travique-network
     healthcheck:
       test: echo 'db.runCommand("ping").ok' | mongosh localhost:27017/payment-service --quiet
       interval: 10s
@@ -30,14 +30,22 @@ services:
     environment:
       - PORT=3002
       - MONGO_URI=mongodb://root:password@payment-db:27017/payment-service?authSource=admin
-      - NODE_ENV=production
+      - NODE_ENV=development
       - SERVICE_NAME=payment-service-${HOSTNAME}
+      - MIDTRANS_SERVER_KEY=SB-Mid-server-hZzGkVgPHizW7KsZd1WxDU9a
+      - MIDTRANS_CLIENT_KEY=SB-Mid-client-c_3MSNu5wCIgRJW5
+      - MIDTRANS_MERCHANT_ID=G114042155
+      - MIDTRANS_NOTIFICATION_URL=http://localhost:3002/api/payments/notifications
+      - BOOKING_SERVICE_URL=http://booking-nginx
+      - AUTH_SERVICE_URL=http://user-service-user-service:7100
+      - JWT_SECRET=your-secret-key
+      - JWT_EXPIRES_IN=1d
     volumes:
       - ./logs:/usr/src/app/logs
     depends_on:
       - payment-db
     networks:
-      - payment-network
+      - travique-network
     deploy:
       mode: replicated
       replicas: 3
@@ -68,11 +76,11 @@ services:
     depends_on:
       - payment-service
     networks:
-      - payment-network
+      - travique-network
 
 networks:
-  payment-network:
-    driver: bridge
+  travique-network:
+    external: true
 
 volumes:
   payment-data:
