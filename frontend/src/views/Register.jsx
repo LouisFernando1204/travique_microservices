@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link, useParams } from "react-router-dom";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import AuthLayout from "../components/AuthLayout";
 import React from "react";
 import Swal from "sweetalert2";
@@ -10,6 +10,7 @@ export default function Register() {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
   const [avatar, setAvatar] = useState(null);
+  const navigate = useNavigate()
 
   const handleRegister = async () => {
     const uploadAvatar = await pinata.upload.public.file(avatar);
