@@ -23,13 +23,12 @@ class PaymentController {
    */
   async createPayment(req, res, next) {
     try {
-      const { bookingId, amount } = req.body;
-      const userId = req.user.id;
+      const { bookingId, amount, userId } = req.body;
       
       const result = await paymentService.createPayment({
         bookingId,
-        userId,
-        amount
+        amount,
+        userId
       });
       
       return ApiResponse.created(res, result, 'Payment initiated successfully');

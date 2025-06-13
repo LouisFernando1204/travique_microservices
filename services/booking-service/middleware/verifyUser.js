@@ -9,7 +9,7 @@ const verifyUser = async (req, res, next) => {
       return res.status(401).json({ message: 'User ID and token required' });
     }
 
-    const verifyUrl = `http://localhost:8080/api/auth/verify_token/${userId}`;
+    const verifyUrl = `http://user-service-user-service-1:7100/api/auth/verify_token/${userId}`;
 
     const response = await axios.get(verifyUrl, {
       headers: {

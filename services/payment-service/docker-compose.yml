@@ -36,8 +36,8 @@ services:
       - MIDTRANS_CLIENT_KEY=SB-Mid-client-c_3MSNu5wCIgRJW5
       - MIDTRANS_MERCHANT_ID=G114042155
       - MIDTRANS_NOTIFICATION_URL=http://localhost:3002/api/payments/notifications
-      - BOOKING_SERVICE_URL=http://booking-service:3000
-      - AUTH_SERVICE_URL=http://auth-service:3000
+      - BOOKING_SERVICE_URL=http://booking-nginx
+      - AUTH_SERVICE_URL=http://user-service-user-service:7100
       - JWT_SECRET=your-secret-key
       - JWT_EXPIRES_IN=1d
     volumes:
