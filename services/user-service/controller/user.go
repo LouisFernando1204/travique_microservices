@@ -2,6 +2,7 @@ package controller
 
 import (
 	"context"
+	"fmt"
 	"time"
 
 	"github.com/gofiber/fiber/v2"
@@ -24,6 +25,7 @@ func Register(c *fiber.Ctx) error {
 	var user model.User
 	err := c.BodyParser(&user)
 	if err != nil {
+		fmt.Println(err)
 		return output.GetError(c, fiber.StatusBadRequest, string(constant.FailedToParseData))
 	}
 
