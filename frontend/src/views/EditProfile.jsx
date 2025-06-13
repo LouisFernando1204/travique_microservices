@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Swal from "sweetalert2";
 import { editProfile, pinata } from "../server/user-service";
-import { useParams } from "react-router-dom";
+import { useNavigate, useParams } from "react-router-dom";
 
 const EditProfile = () => {
   const [avatar, setAvatar] = useState(null);
@@ -9,6 +9,7 @@ const EditProfile = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
+  const navigate = useNavigate()
 
   const { id } = useParams("id");
 
@@ -45,7 +46,11 @@ const EditProfile = () => {
               title: "Berhasil edit profile!",
               icon: "success",
               text: `${res.data.message}`,
+              timer: 2000
             });
+            setTimeout(() => {
+              navigate("/touristspots")
+            }, 2000)
           } else {
             Swal.fire({
               title: "Oops..Terjadi kesalahan!",

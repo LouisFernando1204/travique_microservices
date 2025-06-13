@@ -11,15 +11,15 @@ services:
       - .:/app
       - /app/node_modules
     ports:
-      - "8080:8080"  # Tambahkan ini agar bisa diakses dari luar container
+      - "8084:8080"  # Tambahkan ini agar bisa diakses dari luar container
     depends_on:
-      - mongo
+      - review-mongo
     networks:
       - travique-network
 
-  mongo:
+  review-mongo:
     image: mongo:5
-    container_name: mongo
+    container_name: review-mongo
     ports:
       - "27017:27017"
     volumes:
